@@ -1,5 +1,5 @@
 # xQWERTYa Switching
-xQWERTYa Swithing is an Elgato Stream Deck plugin intended to facilitate switching profiles using an Elgato Stream Deck. 
+xQWERTYa Switching is an Elgato Stream Deck plugin intended to facilitate switching profiles using an Elgato Stream Deck. 
 
 ## How to Use xQWERTYa Switching
 1. Link the project.
