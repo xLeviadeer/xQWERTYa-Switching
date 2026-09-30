@@ -1,0 +1,43 @@
+{
+	"Name": "XQWERTYA Switching",
+	"Version": "0.1.0.0",
+	"Author": "xLevia",
+	"Actions": [
+		{
+			"Name": "Profile Setter",
+			"UUID": "com.xlevia.xqwertya-switching.profile-setter",
+			"Icon": "imgs/actions/profile-switcher/icon",
+			"Tooltip": "Switches to a specific profile",
+			"PropertyInspectorPath": "ui/profile-switcher.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/profile-switcher/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "XQWERTYA Switching",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Presses keys to switch a XQWERTYA keyboard",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 3,
+	"Software": {
+		"MinimumVersion": "6.9"
+	},
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.xlevia.xqwertya-switching"
+}
